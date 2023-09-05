@@ -4,6 +4,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -48,6 +49,8 @@ body{
 header{
     height:100%;
     width:100%;
+    position: static;
+
 }
 body::-webkit-scrollbar{
     display:none;
@@ -511,11 +514,14 @@ span{
     /* header */
     header{
         width:100%;
+        height:100px;
+        position:fixed;
+        top:0;
+        left:0;
+        z-index:100;
     }
     nav{
         width:100%;
-        position: fixed;
-        z-index: 100;
     }
     .nav_1{
         display:inline-block;
@@ -570,9 +576,9 @@ span{
         align-items: center;
         gap:2%;
     }
-    .nav2_resp img{
-        height:12%;
-        width:12%;
+    .nav2_resp a img{
+        height:50%;
+        width:50%;
     }
     .nav_width {
         display:none;
