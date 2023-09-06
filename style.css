@@ -1045,10 +1045,14 @@ footer a:hover {
 .dibya-all-div div {
     width: 50px;
 }
+.dibya-footer-icons i:hover {
+    color: white;
+    cursor: pointer;
+}
 
 /* footer media query */
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1201px) {
     .dibya-footer-media{
         display: none;
     }
@@ -1311,8 +1315,7 @@ footer a:hover {
         font-weight: 500;
     }
     .cards{
-        
-    grid-template-columns: repeat(10, calc((100% - 16px) /3.76));
+        grid-template-columns: repeat(10, calc((100% - 16px) /3.76));
         gap: 5px 10px;
         overflow-x: scroll hidden;   
     }
