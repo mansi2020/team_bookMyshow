@@ -144,6 +144,10 @@ form button{
   height:25px;
   border-radius:5px;
 }
+#login{
+  text-decoration: none;
+  color:var(--white-color);
+}
 .fa-bars{
   color:var(--white-color);
   transform:scale(1.5);
