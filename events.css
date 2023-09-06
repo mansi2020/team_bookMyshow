@@ -16,6 +16,10 @@ body{
     width:100%;
     /* border:10px solid red; */
 }
+#white{
+    color: white;
+    font-weight: 500;
+  }
 header{
     height:100%;
     width:100%;
