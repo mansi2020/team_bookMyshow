@@ -17,7 +17,6 @@ html {
   position: relative;
 }
 :root{
-
   font-family:"Roboto",sans-serif;
   --lightgray-color:rgb(51, 53, 69);
   --white-color:rgb(255,255,255);
@@ -30,6 +29,25 @@ html {
   --font-12px:0.75rem;
   --font-14px:0.875rem;
   --font-16px:1rem;
+
+  --footer-head-font-color: white;
+  --footer-head-button-coolor: #EC5E71;
+  --footer-head-font-size: 16px;
+  --footer-helpline-background-color: rgb(64, 64, 67);
+  --footer-main-background-color: rgb(51, 51, 56);
+  --footer-border-for-test: 1px solid red;
+  --footer-main-head-font-size: 12px;
+  --footer-main-head-letter-spaceing: 0.1px;
+  --footer-main-head-line-height: 13.2px;
+  --footer-main-head-text-decoration: none solid rgb(165, 165, 165);
+  --footer-main-head-text-trasform: uppercase;
+  --footer-main-head-font-color: #A5A5A5;
+  --footer-main-font-weight: 400;
+  --footer-main-a-font-size: 11px;
+  --footer-main-a-letter-spacing: 0.1px;
+  --footer-main-a-text-decoration: none solid rgb(127, 127, 127);
+  --footer-main-a-color: #7f7f7f;
+  --footer-inside-main-container-padding: padding: 25px 0 0 0;
 }
 /* --------------------header-------------------*/
 .nav_1{
@@ -209,14 +227,13 @@ sup{
   }
   .maincontainer{
       width:100%;
-      border:2px solid green; 
   }
   
   .nav_1{
       width:100%;
   }
   .nav_width {
-      width:80vw;
+      width:92vw;
   }
   form button {
       padding:0;
@@ -852,14 +869,482 @@ body {
   color: rgb(220, 53, 88);
   font-weight: 400;
 }
+/* ------------------footer------------------- */
+.dibya-footer-head {
+  background-color: rgb(49, 48, 53);
+  width: 100%;
+  height: 83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.dibya-footer-inside-head {
+  width: 75%;
+  height: 83px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 15px;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: nowrap;
+}
+
+.dibya-footer-inside-head-part-2 {
+  color: var(--footer-head-font-color);
+  font-size: var(--footer-head-font-size);
+  text-decoration: none;
+}
+
+.dibya-footer-inside-head-part-2 h1 {
+  font-size: var(--footer-head-font-size);
+  font-weight: 600;
+}
+
+.dibya-footer-inside-head-part-3 {
+  color: var(--footer-head-font-color);
+  font-size: var(--footer-head-font-size);
+  width: 900px;
+
+}
+
+.dibya-footer-inside-head-part-3 p {
+  font-size: var(--footer-head-font-size);
+}
+
+.dibya-footer-inside-head-part-4 button {
+  width: 135px;
+  height: 39.9px;
+  background-color: var(--footer-head-button-coolor);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dibya-footer-inside-head-part-4 button a {
+  text-decoration: none;
+  color: var(--footer-head-font-color);
+  font-size: var(--footer-head-font-size);
+}
+
+/* Footer Head ended */
+
+/* Help Line Started */
+
+.dibya-helpline {
+  height: 112px;
+  display: flex;
+  width: 100%;
+  background-color: var(--footer-helpline-background-color);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.dibya-inside-helpline,
+.dibya-comform-ticket,
+.dibya-customer-care {
+  width: 65%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.dibya-customer-care {
+  width: 114px;
+  height: 100%;
+  color: var(--footer-head-font-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: space-between;
+  gap: 1rem;
+  transition: 0.4s ease-in-out;
+  flex-wrap: nowrap;
+
+}
+
+.dibya-customer-care svg,
+.dibya-comform-ticket svg,
+.dibya-newsletter svg {
+  width: 50px;
+  height: 50px;
+  fill: RGB(153, 153, 153);
+}
+.dibya-customer-care a,
+.dibya-comform-ticket a,
+.dibya-newsletter a {
+  text-transform: uppercase;
+  font-size: 11px;
+  color: RGB(153, 153, 153);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.dibya-comform-ticket {
+  width: 173px;
+  height: 100%;
+  color: var(--footer-head-font-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: space-between;
+  gap: 1rem;
+  flex-wrap: nowrap;
+}
+
+.dibya-newsletter {
+  width: 169px;
+  height: 100%;
+  color: var(--footer-head-font-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: space-between;
+  gap: 1rem;
+  flex-wrap: nowrap;
+}
+
+.dibya-customer-care svg:hover {
+  fill: white;
+  color: white;
+}
+
+.dibya-customer-care svg:hover,
+.dibya-newsletter svg:hover,
+.dibya-comform-ticket svg:hover {
+  fill: white;
+  color: white;
+}
+
+/* Help Line Ended */
+
+/* Footer main container */
+
+.dibya-fotter-main-container {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--footer-main-background-color);
+
+}
+
+.dibya-footer-inside-main {
+  width: 80%;
+  height: 1073px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  flex-wrap: nowrap;
+}
+
+/* Top cinemas */
+.dibya-top-cinemas {
+  width: 100%;
+  height: 93px;
+  padding: var(--footer-inside-main-container-padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+/* Top cinemas ended */
+
+/* Upcomming cinemas */
+.dibya-upcoming-cinemas {
+  width: 100%;
+  height: 76px;
+  padding: var(--footer-inside-main-container-padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+/* Upcomming cinemas ended */
+
+/* Upcoming Movies family */
+.dibya-family-movies {
+  width: 100%;
+  height: 76px;
+  padding: var(--footer-inside-main-container-padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+/* Upcoming Movies family endes */
+
+/* UPCOMING & NOWSHOWING MARATHI MOVIES */
+.dibya-upcoming-marati {
+  width: 100%;
+  height: 76px;
+  padding: var(--footer-inside-main-container-padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+/* UPCOMING & NOWSHOWING MARATHI MOVIES ENDED */
+
+/* UPCOMING MOVIES */
+.dibya-upcoming-movies {
+  height: 93px;
+  width: 100%;
+  padding: var(--footer-inside-main-container-padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+/* UPCOMING MOVIES ENDED */
+
+/* MOVIES BY GENRE */
+.dibya-movies-by-genre {
+  height: 111px;
+  width: 100%;
+  padding: var(--footer-inside-main-container-padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+/* MOVIES BY GENRE ENDED */
+
+/* MOVIES BY LANGUAGE */
+.dibya-movies-by-lang {
+  height: 111px;
+  width: 100%;
+  padding: var(--footer-inside-main-container-padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+/* MOVIES BY LANGUAGE ENDED */
+
+.dibya-inside-main-box h2 {
+  font-size: var(--footer-main-head-font-size);
+  text-decoration: var(--footer-main-head-text-decoration);
+  color: var(--footer-main-head-font-color);
+  text-transform: var(--footer-main-head-text-trasform);
+  line-height: var(--footer-main-head-line-height);
+  letter-spacing: var(--footer-main-head-letter-spaceing);
+  font-weight: var(--footer-main-font-weight);
+
+}
+
+/* TAMIL MOVIES BY GENRE */
+.dibya-tamil-movies-by-genre {
+  height: 129px;
+  width: 100%;
+  padding: var(--footer-inside-main-container-padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+/* TAMIL MOVIES BY GENRE ENDED */
+
+/* MOVIE REVIEWS AND TRENDING ARTICLES */
+.dibya-movie-review {
+  width: 100%;
+  height: 76px;
+  padding: var(--footer-inside-main-container-padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+/* MOVIE REVIEWS AND TRENDING ARTICLES ENDED */
+
+/* COUNTRIES */
+.dibya-contries {
+  width: 100%;
+  height: 76px;
+  padding: var(--footer-inside-main-container-padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+/* COUNTRIES ENDED */
+
+
+/* HELP */
+.dibya-help {
+  width: 100%;
+  height: 76px;
+  padding: var(--footer-inside-main-container-padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+/* HELP ENDED */
+
+
+/* BOOKMYSHOW EXCLUSIVES */
+.dibya-book-exclusive {
+  width: 100%;
+  height: 76px;
+  padding: var(--footer-inside-main-container-padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+/* BOOKMYSHOW EXCLUSIVES ENDED */
+
+
+.dibya-inside-main-box-a a {
+  font-size: var(--footer-main-a-font-size);
+  font-weight: var(--footer-main-font-weight);
+  text-decoration: var(--footer-main-a-text-decoration);
+  color: var(--footer-main-a-color);
+  letter-spacing: var(--footer-main-a-letter-spacing);
+  transition: 0.4s ease-in-out;
+}
+
+.dibya-footer-inside-main span {
+  font-size: 15px;
+  font-weight: var(--footer-main-font-weight);
+  text-decoration: var(--footer-main-a-text-decoration);
+  color: var(--footer-main-a-color);
+  letter-spacing: var(--footer-main-a-letter-spacing);
+  cursor: default;
+}
+.dibya-logo-add {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 1.2rem;
+}
+.dibya-hr {
+  height: 0.9px;
+  background-color: #5D5D5F;
+  width: 40vw;
+}
+.dibya-footer-icons {
+  height: 39.4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+}
+.dibya-social-midia {
+  overflow: hidden;
+  color: #5D5D5F;
+}
+.dibya-footer-icons i {
+  font-size: 2rem;
+  color: var();
+}
+.dibya-last-foot {
+  padding: 30px;
+  font-size: 11px;
+  color: rgb(102, 102, 102);
+  text-align: center;
+}
+footer a:hover {
+  color: white;
+}
+.dibya-logo-bookmyshow i:hover {
+  color: white;
+}
+.dibya-footer-media {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+  border-top: 1px solid rgb(238, 238, 238);
+  padding:2rem;
+}
+.dibya-footer-media-inside-container {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  position:fixed;
+  bottom:0;
+  left: 0;
+  z-index: 200;
+  padding:2rem;
+  background-color: var(--white-color);
+}
+
+.dibya-all-div img {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 25px;
+  object-position: center;
+}
+.dibya-all-div {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: nowrap;
+  font-size: 0.8rem;
+  color: #dc3543;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.dibya-all-div div {
+  width: 50px;
+}
+.dibya-footer-icons i:hover {
+    color: white;
+    cursor: pointer;
+}
+/*-----------------------media-query--------------------*/
 @media screen and (max-width: 1023px) {
   header {
     display: none;
   }
+  .foot{
+    display: none;
+  }
+
   .navbar{
     display: block;
   }
-
   .left,
   .right {
     display: none;
@@ -1004,7 +1489,7 @@ body {
     display: none;
   }
 }
-@media screen and (min-width: 481px) and (max-width: 1024px) {
+@media screen and (min-width: 481px) and (max-width: 1023px) {
   .container .images img {
     height: calc(330.523px);
   }
@@ -1027,5 +1512,20 @@ body {
   }
   .shorts .container .images img {
     height: calc(330.523px);
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  .dibya-hr{
+      width: 40vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .dibya-footer-media {
+    display: none;
+  }
+  .dibya-footer-media-inside-container {
+    display: none;
   }
 }
