@@ -244,21 +244,41 @@ sup{
 .poster{
     height:100%;
     width:100%;
-    padding:0.7rem;
     margin-bottom:1rem;
+    position: relative;
+}
+.poster .posterleft{
+    left: 0;
+    border-radius: 0 6px 6px 0;
+}
+.poster .posterright{
+    right: 0;
+    border-radius: 6px 0px 0px 6px;
+}
+.poster .posterleft,.poster .posterright{
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
 }
 .poster_sub{
+    width:100%;
     display:grid;
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(1,1fr);
     gap:0.7rem;
     scroll-behavior: smooth;
     overflow-x: scroll;
-    width:100vw;
+    
 }
 .poster_sub img{
-    height:20rem;
-    border-radius:5px;
+    height:23rem;
 }
 .poster_sub::-webkit-scrollbar{
     display:none;
@@ -1193,20 +1213,24 @@ footer a:hover {
     .poster {
         height: 100%;
         width: 100%;
-        padding: 0.3rem;
-        background-color: var(--off-white-color);
         margin-bottom: 1rem;
+        padding:0;
     }
     .poster_sub img {
-        height:10rem;
-        border-radius:3px;
-    }
-    .poster_sub{
-        grid-template-columns: repeat(6,100%);
-        grid-template-rows: repeat(1,1fr);
-        gap:0.3rem;
+        height:12rem;
         width:100%;
     }
+    .poster_sub{
+        width:100%;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+    .poster .posterleft,.poster .posterright{
+        top:30%;
+        width: 35px;
+        height: 35px;
+    }
+
     /*<----------------------only poster section--------------------------------------------------------------> */
     .onlyPoster {
         display:none;
@@ -1345,11 +1369,10 @@ footer a:hover {
         height: 100%;
         width: 100%;
         padding:0;
-        background-color: var(--off-white-color);
         margin-bottom: 1rem;
     }
     .poster_sub{
-        grid-template-columns: repeat(6,100%);
+        grid-template-columns: repeat(4,100%);
         grid-template-rows: repeat(1,1fr);
         gap:0;
         width:100%;
