@@ -8,9 +8,20 @@
   <link rel="stylesheet" href="./style.css" />
   <link rel="icon" href="./Assets/title_logo.png">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 </head>
 
 <body>
@@ -99,13 +110,13 @@
     <main>
       <!-- poster section -->
       <section class="poster ">
-          <div class="poster_sub">
-            <img src="./Assets/Poster/1.jpg" alt="poster1">          
-            <img src="./Assets/Poster/2.jpg" alt="poster2">
-            <img src="./Assets/Poster/3.jpg" alt="poster3">
-            <img src="./Assets/Poster/4.jpg" alt="poster4">
-            <img src="./Assets/Poster/3.jpg" alt="poster3">
-            <img src="./Assets/Poster/4.jpg" alt="poster4">
+          <div class="poster_sub owl-carousel owl-theme">
+            <div class="item"><img src="./Assets/Poster/1.jpg" alt="poster1"></div>
+            <div class="item"><img src="./Assets/Poster/2.jpg" alt="poster2"></div>
+            <div class="item"><img src="./Assets/Poster/3.jpg" alt="poster3"></div>
+            <div class="item"><img src="./Assets/Poster/4.jpg" alt="poster4"></div>
+            <!-- <div class="item"><img src="./Assets/Poster/3.jpg" alt="poster4"></div>       
+            <div class="item"><img src="./Assets/Poster/4.jpg" alt="poster5"></div> -->
           </div>
       </section>
       
@@ -1627,20 +1638,37 @@
   </div>
   
 
-  <!-- jquery cdn -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
-  <!-- owl js file -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   
-  <script>
-        $('.owl-carousel').owlCarousel({
-      margin:10,
-      loop:true,
-      autoWidth:true,
-      items:1
-    })
-  </script>
+<!--owl carasouel cdn link -->
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+  ></script>
+  <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
+  <script>
+      $(".owl-carousel").owlCarousel({
+        margin: 0,
+        loop: true,
+        items: 1,
+        autoplay:true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:true
+      });
+      $('.play').on('click',function(){
+      owl.trigger('play.owl.autoplay',[2000])
+      });
+      $('.stop').on('click',function(){
+      owl.trigger('stop.owl.autoplay')
+      })
+  </script>
   <!-- font-awesome-icon-script -->
   <script src="https://kit.fontawesome.com/f24426156c.js" crossorigin="anonymous"></script>
 </body>

@@ -55,6 +55,9 @@ header{
 body::-webkit-scrollbar{
     display:none;
 }
+.item{
+    width:100vw;
+}
 /* <------------------------------header section-------------------------------------------------------------------> */
 /* you have to add this variable in your css file navbar root */
 /* :root{
