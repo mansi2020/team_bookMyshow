@@ -1221,7 +1221,16 @@ footer a:hover {
         width:100%;
         margin-top:2rem;
     }
-
+    .Premieres_cards{
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+    }
+    .Premieres_cards::-webkit-scrollbar{
+        display:none;
+    }
+    .Premieres_cards{
+        grid-template-columns: repeat(5, calc((100% - 16px) / 2.75));
+    }
     /* <-------------------------home last-------------------------------------------> */
     .home_last {
         margin-top: 2rem;
@@ -1362,7 +1371,17 @@ footer a:hover {
         width:100%;
         margin-top:2rem;
     }
-
+    .Premieres_cards{
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+    }
+    .Premieres_cards::-webkit-scrollbar{
+        display:none;
+    }
+    .Premieres_cards{
+        grid-template-columns: repeat(5, calc((100% - 16px) / 3));
+        gap:1rem;
+    }
     /* <-------------------------home last-------------------------------------------> */
     .home_last {
         margin-top: 2rem;
@@ -1512,6 +1531,16 @@ footer a:hover {
         width:100%;
         margin-top:2rem;
     }
+    .Premieres_cards{
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+    }
+    .Premieres_cards::-webkit-scrollbar{
+        display:none;
+    }
+    .Premieres_cards{
+        grid-template-columns: repeat(5, calc((100% - 16px) /4));
+    }
 
     /* <-------------------------home last-------------------------------------------> */
     .home_last {
@@ -1538,7 +1567,8 @@ footer a:hover {
         width:100%;
     }
     .nav_width {
-        width:92vw;
+        width:100%;
+        padding:30px;
     }
     form button {
         padding:0;
