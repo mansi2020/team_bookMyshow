@@ -8,7 +8,7 @@
 5) Dibya Shakti Panda -> Icc Cricket world cup Section<br>
 6) Aman Sen -> Buzz Section
 
-
+<hr>
 <h1>Mansi Sorathiya - Home Page + Header</h1>
 <h1>UI Part</h1>
 
@@ -28,4 +28,20 @@
 ![Screenshot 2023-09-07 184329](https://github.com/mansi2020/team_bookMyshow/assets/57188328/810a5b7c-08dc-42c3-8940-9ab114649635)
 ![Screenshot 2023-09-07 184335](https://github.com/mansi2020/team_bookMyshow/assets/57188328/f82d6160-3790-4b17-8f45-e1b5713bf408)
 
+<h1>Description</h1>
+*HTML TAG*<br>
+main: represents the main content of a web page, typically containing the unique and primary content of the page.<br>
+header: defines a container for introductory or navigational content at the top of a web page or section, often including elements like logos and navigation menus.<br>
+section: defines a thematic grouping of content within a web page, allowing you to structure related content together, such as articles, blog posts, or distinct sections of a page.<br><br>
+Here I use OWL Carousel : 
+OWL Carousel is a popular and responsive jQuery carousel/slider plugin that allows you to create customizable and interactive carousels or sliders for displaying content like images, videos, or any other HTML elements on your website. It's named "OWL" because it was inspired by the behavior of an owl rotating its head to look around.<br><br>
 
+*CSS Properties*  
+CSS Grid:<br>
+CSS Grid is a two-dimensional layout system in CSS that enables the creation of complex grid-based layouts with rows and columns. It's used to structure content in a grid format and allows for precise control over the placement and alignment of items within the grid.<br><br>
+
+Flexbox (Flexible Box Layout):<br>
+Flexbox is a one-dimensional layout system in CSS designed for aligning and distributing items within a container along a single axis (either horizontally or vertically). It simplifies the arrangement of content in a linear fashion and is particularly useful for building responsive and evenly spaced layouts.<br><br>
+
+MediaQuery:<br>
+A media query in CSS is a conditional statement that allows you to apply specific styles to HTML elements based on the characteristics of the user's device, such as screen width, height, device type, or orientation. It enables the creation of responsive web designs by tailoring the presentation of content to different viewing conditions, ensuring a better user experience across various devices and screen sizes.<br><br>
