@@ -71,7 +71,7 @@ body::-webkit-scrollbar{
     object-fit: cover;
 }
 .search_bar{
-    width:54%;
+    width:50%;
     background-color: var(--white-color);
     padding:5px;
     border-radius:4px;
@@ -388,7 +388,6 @@ main{
 
   .main_containerr:hover .containerr {
     cursor: pointer;
-    /* transition: height .5s; */
   }
 
   .main_containerr:hover { 
