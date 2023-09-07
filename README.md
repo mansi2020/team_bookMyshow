@@ -150,14 +150,12 @@ These media queries help in creating responsive design for different screen size
 
 
 
-<hr>
-<h1>Dibya Shakti Panda - ICC MEN WORLD CUP + Footer</h1>
-<h1>UI Part</h1>
-![1](https://github.com/mansi2020/team_bookMyshow/assets/125633895/40aa1e47-45e7-47d5-aeec-c234ac821eb9)
-![2](https://github.com/mansi2020/team_bookMyshow/assets/125633895/c6cacdf3-690b-4245-bdfa-84feee63ca05)
-![3](https://github.com/mansi2020/team_bookMyshow/assets/125633895/33260905-ad65-42df-a0ce-3cad65784518)
-![4](https://github.com/mansi2020/team_bookMyshow/assets/125633895/e1cbd204-1c5f-48cb-b0c6-267a62a96841)
-![5](https://github.com/mansi2020/team_bookMyshow/assets/125633895/439d7d66-af54-4b75-850f-a1173e89ed65)
+
+
+![1](https://github.com/mansi2020/team_bookMyshow/assets/125633895/3cfefcda-df63-4d9e-8a88-1b6511635624)
+![2](https://github.com/mansi2020/team_bookMyshow/assets/125633895/b44a793f-b5fe-4572-b3f4-09081122b795)
+
+
 
 
 
