@@ -16,6 +16,10 @@ body{
     width:100%;
     /* border:10px solid red; */
 }
+#login{
+    text-decoration: none;
+    color:var(--white-color);
+  }
 #white{
     color: white;
     font-weight: 500;

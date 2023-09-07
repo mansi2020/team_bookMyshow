@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 body{
     background-color: var(--background-color1);
     scroll-behavior: smooth;
@@ -19,6 +20,10 @@ body{
 #white{
     color: white;
     font-weight: 500;
+  }
+  #login{
+    text-decoration: none;
+    color:var(--white-color);
   }
 header{
     height:100%;
