@@ -16,7 +16,7 @@ header{
     position: static;
 
 }
-body::-webkit-scrollbar{
+*::-webkit-scrollbar{
     display:none;
 }
 /* <------------------------------header section-------------------------------------------------------------------> */
@@ -411,7 +411,6 @@ h2{
     /* border: 2px solid black; */
     /* padding-top:20px; */
     align-items: center;
-    flex-wrap: wrap;
     /* justify-content: space-between; */
 }
 .section-2-languages-button{
@@ -1102,7 +1101,7 @@ footer a:hover {
 
 
 
-@media only screen and (min-width: 769px) and (max-width: 1200px) {
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
     
     .dibya-hr{
         width: 40vw;
@@ -1140,7 +1139,12 @@ footer a:hover {
     }
 
 }
-@media screen and (min-width: 350px) and (max-width:1023px){
+@media screen and (max-width:475px){
+    .navbar {
+        display: none;
+    }
+}
+@media screen and (max-width:1023px){
     
     main{
         width:100vw;
@@ -1172,21 +1176,21 @@ footer a:hover {
         font-size: 12px;
         color:rgb(229, 229, 229);
     }
-    .resnav>.reschild-2{
+    .resnav>.reschild-2 i{
         font-size: 25px;
         color:#FFFFFF;
     }
     .design-1{
         display: block;
         position: fixed;
-        top:700px;
+        bottom: 40px;
         left:20px;
         z-index:+6;
     }
     .design-2{
         display: block;
         position: fixed;
-        top: 700px;
+        bottom: 40px;
         right:25px;
         z-index: +6;
     }
@@ -1229,6 +1233,10 @@ footer a:hover {
         position:sticky;
         top:80px;
         background-color: #FFFFFF;
+        padding: 8px;
+        height: auto;
+        overflow-x: scroll;
+
     }
     .resimage{
         display: block;
@@ -1236,7 +1244,7 @@ footer a:hover {
     .card-container{
         /* width:100%; */
         /* border:2px solid #DC3558; */
-        margin-top:50px;
+        margin-top:20px;
         display: grid;
         grid-template-columns: repeat(2, calc((100% - 16px) / 2));
         padding: 16px;
@@ -1269,20 +1277,17 @@ footer a:hover {
         display: none;
     }
 }
-@media screen and (min-width:1024px) and (max-width:1439px){
+/* @media screen and (min-width:1024px) and (max-width:1439px){
     main{
         width:100vw;
-        /* height: 100%; */
     }
     .navbar{
         width:100%;
-        /* height: unset; */
         height:90vh;
     }
     .navbar-image-box{
         height:100%;
         min-width: 100%;
-        /* object-fit: cover; */
     }
     .main_containerr{
         width:100%;
@@ -1300,27 +1305,36 @@ footer a:hover {
         display: none;
     }
     .card-container{
-        /* width:100%; */
-        /* border:2px solid #DC3558; */
         margin-top:50px;
         display: grid;
         grid-template-columns: repeat(2, calc((100% - 16px) / 2));
         padding: 16px;
-        /* grid-template-rows: repeat(5,1fr); */
-        /* gap:200px 26px; */
         gap:25px 16px ;
     }
-    .card{
-        height:100%;
-    }
+    
     .image-container{
         height: 100%;
     }
-    .text-container{
-        display: none;
-    }
+    
     .dibya-footer-media{
         display: none;
     }
 
+} */
+@media screen and (min-width:1024px){
+    .dibya-footer-media{
+        display: none;
+    }
+    .text-container{
+        display: none;
+    }
+    .card{
+        height:100%;
+    }
+    .main_containerr{
+        width:100%;
+    }
+    .containerr{
+        width:100%;
+    }
 }
