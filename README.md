@@ -45,3 +45,10 @@ Flexbox is a one-dimensional layout system in CSS designed for aligning and dist
 
 MediaQuery:<br>
 A media query in CSS is a conditional statement that allows you to apply specific styles to HTML elements based on the characteristics of the user's device, such as screen width, height, device type, or orientation. It enables the creation of responsive web designs by tailoring the presentation of content to different viewing conditions, ensuring a better user experience across various devices and screen sizes.<br><br>
+
+Hover Effect:<br>
+A hover effect is a visual change or animation applied to an element (typically a link or a button) when a user hovers their cursor over it. This effect provides feedback to the user, indicating that the element is interactive. Common hover effects include color changes, underlines, and animations, enhancing the interactivity and user experience of a website or application.<br><br>
+
+
+
+
