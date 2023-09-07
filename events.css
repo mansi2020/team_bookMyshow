@@ -571,6 +571,7 @@ main{
     }
 
     .event_nav2{
+        overflow-x: hidden;
        background-color: #FFFFFF;
        margin-bottom: 20px; 
         /* border: 2px solid green; */
