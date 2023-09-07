@@ -74,6 +74,10 @@ body::-webkit-scrollbar{
     --font-14px:0.875rem;
     --font-16px:1rem;
 } */
+#login{
+    text-decoration: none;
+    color:var(--white-color);
+}
 .nav_1{
     background-color: var(--lightgray-color);
     display:flex;
