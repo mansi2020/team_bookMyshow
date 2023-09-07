@@ -70,6 +70,28 @@ A hover effect is a visual change or animation applied to an element (typically 
 
 
 
+<hr>
+<h1>Dibya Shakti Panda - ICC MEN WORLD CUP + Footer</h1>
+<h1>UI Part</h1>
+![1](https://github.com/mansi2020/team_bookMyshow/assets/125633895/af8a5712-eece-4ed7-9c77-1d376e728136)
+![2](https://github.com/mansi2020/team_bookMyshow/assets/125633895/907924a1-8bd5-47f7-9bc9-15241fdf9e45)
+![3](https://github.com/mansi2020/team_bookMyshow/assets/125633895/ddedf353-9514-4a21-9814-70927659ce46)
+![4](https://github.com/mansi2020/team_bookMyshow/assets/125633895/f7868810-6041-45f4-8de3-133e5bd94e5e)
+![5](https://github.com/mansi2020/team_bookMyshow/assets/125633895/176abade-a4cc-41cc-b6fe-ff203299a15e)
+<h1>Description</h1>
+For ICC MEN I have taken two sections the first section contain the all image of the pages.
+The second section contain the path of the page.The third section contain the despription.
+And finally the third section is the footer part.
+I also tried to make it responsive as possible.
+In the first section I make it display as flex and change the flex direction to column.
+In side it some img tag and h tag are used.
+The Flag part and State part is made of grid property.
+The are divide in 3-columns and 4-rows. By grid-templetes-rows/columns properties.
+The footer part is contain of svg tag and many of a tag to complete with some hover property when hover change its color to white.
+At last I have taken some Icon from Aswomefonts  and also given some hover property.
+To make it responsive i use 3-4 break point with apply @media only screen and (-----) properties.
+
+
 
 
 
