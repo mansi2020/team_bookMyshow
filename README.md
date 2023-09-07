@@ -73,11 +73,12 @@ A hover effect is a visual change or animation applied to an element (typically 
 <hr>
 <h1>Dibya Shakti Panda - ICC MEN WORLD CUP + Footer</h1>
 <h1>UI Part</h1>
-![1](https://github.com/mansi2020/team_bookMyshow/assets/125633895/af8a5712-eece-4ed7-9c77-1d376e728136)
-![2](https://github.com/mansi2020/team_bookMyshow/assets/125633895/907924a1-8bd5-47f7-9bc9-15241fdf9e45)
-![3](https://github.com/mansi2020/team_bookMyshow/assets/125633895/ddedf353-9514-4a21-9814-70927659ce46)
-![4](https://github.com/mansi2020/team_bookMyshow/assets/125633895/f7868810-6041-45f4-8de3-133e5bd94e5e)
-![5](https://github.com/mansi2020/team_bookMyshow/assets/125633895/176abade-a4cc-41cc-b6fe-ff203299a15e)
+![1](https://github.com/mansi2020/team_bookMyshow/assets/125633895/d077ae3e-17ae-49b6-b823-3976db16a243)
+![2](https://github.com/mansi2020/team_bookMyshow/assets/125633895/55b272f9-06da-425e-8471-8b35510a692e)
+![3](https://github.com/mansi2020/team_bookMyshow/assets/125633895/e2177c90-70cc-41e0-a20d-40ec607132b0)
+![4](https://github.com/mansi2020/team_bookMyshow/assets/125633895/5960fdb8-1a2b-42ee-91a1-e034bf9920d7)
+![5](https://github.com/mansi2020/team_bookMyshow/assets/125633895/1d8de8df-5a27-4955-966b-ec519b1bf383)
+
 <h1>Description</h1>
 For ICC MEN I have taken two sections the first section contain the all image of the pages.
 The second section contain the path of the page.The third section contain the despription.
