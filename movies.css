@@ -267,6 +267,10 @@ main{
     height:100%;
     border-radius: 5px;
 }
+#login{
+    text-decoration: none;
+    color:var(--white-color);
+  }
 .parentsection{
     display:flex;
     width:85%;
@@ -388,20 +392,17 @@ h2{
 }
 
 .browse{
-    margin-top: 10px;
-    color: rgb(220, 53,88);
-    width: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    background-color: transparent;
-    color: rgb(220, 53, 88);
-    border: 1px solid rgb(220, 53, 88);
-    height: 40px;
-    padding: 0px 2px;
-    border-radius: 4px;
-
+    width:100%;
+    border:1px solid red;
+    border-radius: 5px;
+    padding:5px;
+    text-align: center;
+    margin-top: 5%;
+}
+#browse-text{
+    font-size: 14px;
+    font-weight: 400;
+    color:#DC3558;
 }
 .languages{
     width:100%;
@@ -1146,6 +1147,9 @@ footer a:hover {
         /* border:2px solid orange; */
         position:relative;
     }
+    header{
+        display: none;
+    }
     
     .resnav{
         width:100vw;
@@ -1175,14 +1179,14 @@ footer a:hover {
     .design-1{
         display: block;
         position: fixed;
-        top:550px;
+        top:700px;
         left:20px;
         z-index:+6;
     }
     .design-2{
         display: block;
         position: fixed;
-        top: 550px;
+        top: 700px;
         right:25px;
         z-index: +6;
     }
@@ -1198,10 +1202,10 @@ footer a:hover {
     .navbar-image-box{
         height:100%;
         min-width:100%;
-        border:2px solid blue;
+        /* border:2px solid blue; */
         /* object-fit: cover; */
     }
-    section{
+    .parentsection{
         width:100%;
         margin:0;
         /* border:2px solid orange; */
@@ -1258,6 +1262,12 @@ footer a:hover {
     .article{
         display: none;
     }
+    footer{
+        display: none;
+    }
+    .dibya-footer-media{
+        display: none;
+    }
 }
 @media screen and (min-width:1024px) and (max-width:1439px){
     main{
@@ -1307,6 +1317,9 @@ footer a:hover {
         height: 100%;
     }
     .text-container{
+        display: none;
+    }
+    .dibya-footer-media{
         display: none;
     }
 
