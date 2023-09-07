@@ -132,7 +132,7 @@ A hover effect is a visual change or animation applied to an element (typically 
 
 `Stylish Design:`
 
--The login page features an attractive design with a background image and animation, creating a visually appealing login experience.
+-The login page features an attractive design with a background image and `animation`, creating a visually appealing login experience.
 
 <hr>
 <h1>Ayush bansal</h1>
