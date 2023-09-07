@@ -33,6 +33,10 @@ body::-webkit-scrollbar{
     text-decoration: none;
     color:var(--white-color);
 }
+#white{
+    color:white;
+    font-weight:500;
+}
 /* <------------------------------header section-------------------------------------------------------------------> */
 /* you have to add this variable in your css file navbar root */
 :root{
