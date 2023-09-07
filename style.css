@@ -1421,7 +1421,7 @@ footer a:hover {
 
 /* <------------------------------------media query tablet devices-------------------------------------------------------> */
 
-@media screen  and (min-width:769px) and (max-width:1024px){
+@media screen  and (min-width:769px) and (max-width:1023px){
     
     .maincontainer{
         width:100%;
@@ -1579,7 +1579,7 @@ footer a:hover {
 }
 
 /* <------------------------------------media query Desktops, large screens-------------------------------------------------------> */
-@media screen and (min-width:1025px) and (max-width:1200px){
+@media screen and (min-width:1024px) and (max-width:1200px){
 
     /* navbar */
     
