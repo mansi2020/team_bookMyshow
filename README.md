@@ -210,6 +210,40 @@ These media queries help in creating responsive design for different screen size
 
 **}**
 
+<hr>
+
+
+<h1>Rupesh Mandal - MOVIES + PLAYS</h1>
+<h1>Movies UI</h1>
+
+![Screenshot 2023-09-07 224836](https://github.com/mansi2020/team_bookMyshow/assets/69234169/d91f3f58-5e4d-4a89-a567-041a1b488228)
+![Screenshot 2023-09-07 224854](https://github.com/mansi2020/team_bookMyshow/assets/69234169/d50786d3-38aa-4ec4-af1f-def7df71e99e)
+![Screenshot 2023-09-07 224916](https://github.com/mansi2020/team_bookMyshow/assets/69234169/4b94cf37-7ed2-4450-8e8d-2f4eae984850)
+![Screenshot 2023-09-07 224933](https://github.com/mansi2020/team_bookMyshow/assets/69234169/b716a13c-0258-4d29-8c87-273f6f342e4d)
+
+
+<h1>Plays UI</h1>
+
+![Screenshot 2023-09-07 225005](https://github.com/mansi2020/team_bookMyshow/assets/69234169/8b503511-4461-40a6-aab2-6cdd3e6eeb0a)
+![Screenshot 2023-09-07 225028](https://github.com/mansi2020/team_bookMyshow/assets/69234169/3ee8e8bb-0dc4-4603-b083-4d6dcef445da)
+
+<h1>Description</h1>
+
+1. We have used semantic tags such as header, footer, main, article.<br> 
+2. *Main*- First of all i created this main container inside body and after that divided it into three parts navbar, section and article.<br>
+3. *Section*- I have divided section part into two parts section 1 and section 2<br>
+4. *Hover*- I have created filter section using hover property to make it as similar as possible and for better representation.<br>
+5. *Grid*- I have applied grid on section 2 div card where all the images are stored ,to give them a proper styling.<br>
+6. *Flexbox*- I have also used flex on various divs to make the UI as similar as possible.<br>
+
+**Media Query**<br>
+
+In this UI i have also used media query to make it as responsive as possible.<br>
+I have taken 3 break points one for mobile screen , second for tablet screen and third for laptop screens.
+
+
+
+
 
 
 
