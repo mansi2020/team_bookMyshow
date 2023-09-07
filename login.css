@@ -109,8 +109,16 @@ button{
     background-origin: border-box;
     background-clip: padding-box, border-box;
     border-radius: 1.5em;
-    background-size: 200% 100%;
     transition: background-position 0.8s ease-out;
+}
+.back-button{
+    background: transparent;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#back{
+    color: white;
+    text-decoration: none;
 }
 .registered-link{
     text-decoration: none;
