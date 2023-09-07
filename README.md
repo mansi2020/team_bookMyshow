@@ -50,9 +50,10 @@ Hover Effect:<br>
 A hover effect is a visual change or animation applied to an element (typically a link or a button) when a user hovers their cursor over it. This effect provides feedback to the user, indicating that the element is interactive. Common hover effects include color changes, underlines, and animations, enhancing the interactivity and user experience of a website or application.<br><br>
 
 <hr>
-# Mayank Gupta -> Stream Section
-# UI parts
+<h1>Mayank Gupta</h1>
+<h2>Task assig :- 1 Stream Page</h2>
 
+# Stream UI
 ![image](https://github.com/mansi2020/team_bookMyshow/assets/128832286/decce2a1-5336-4716-b998-fda95d46d83d)
 ![image](https://github.com/mansi2020/team_bookMyshow/assets/128832286/364135d7-7614-461f-ae21-92eaae5f18ff)
 ![image](https://github.com/mansi2020/team_bookMyshow/assets/128832286/1fa4a31a-8528-44a4-a368-9c67df809000)
@@ -67,7 +68,36 @@ A hover effect is a visual change or animation applied to an element (typically 
 ![image](https://github.com/mansi2020/team_bookMyshow/assets/128832286/e30d696b-ccf0-4ef4-ae21-18f2ecdffec9)
 ![image](https://github.com/mansi2020/team_bookMyshow/assets/128832286/2fdb7b93-d9e7-4c66-8cda-23f0edea8e1d)
 
+**Web Page Summary**
 
+
+**Description**
+
+-This web page is designed using HTML and CSS, with a focus on semantic HTML5 tags for optimal accessibility and structure. It incorporates various features and techniques to enhance user experience and interactivity.
+
+
+**Key Features**
+
+1. `Semantic Tags:`
+-Utilizes semantic HTML tags such as `header`, `main`, `footer`, and multiple `section` elements for improved code readability and accessibility.
+
+2. `Owl Carousel Library:`
+-Integrates the Owl Carousel library to create dynamic and responsive image carousels for showcasing content.
+
+3. `Anchor Tags:`
+-Implements anchor tags to enable smooth navigation between different sections of the same page and to external pages.
+
+4. `Horizontal Scrolling:`
+-Utilizes the `overflow-x property` to enable horizontal scrolling, allowing users to view content beyond the viewport.
+
+5. `Scrollbar Customization:`
+-Hides the scrollbar using the webkit-scrollbar CSS property for a cleaner and more visually appealing design.
+
+6. `Responsive Design:`
+-Ensures the web page's layout and content adapt seamlessly to various screen sizes and devices, enhancing user experience.
+
+7. `CSS Grid Layout:`
+-Utilizes CSS Grid for structuring and arranging content within sections, offering precise control over the layout and alignment.
 
 <hr>
 <h1>Ayush bansal</h1>
