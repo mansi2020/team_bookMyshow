@@ -70,11 +70,9 @@ A hover effect is a visual change or animation applied to an element (typically 
 
 **Web Page Summary**
 
-
 **Description**
 
 -This web page is designed using HTML and CSS, with a focus on semantic HTML5 tags for optimal accessibility and structure. It incorporates various features and techniques to enhance user experience and interactivity.
-
 
 **Key Features**
 
@@ -98,6 +96,43 @@ A hover effect is a visual change or animation applied to an element (typically 
 
 7. `CSS Grid Layout:`
 -Utilizes CSS Grid for structuring and arranging content within sections, offering precise control over the layout and alignment.
+
+<h2>Task assig :- 2 Login Page</h2>
+
+# Login UI
+![image](https://github.com/mansi2020/team_bookMyshow/assets/128832286/c1e935e8-64ab-4010-8ae2-d79b76211f70)
+
+**Login Page Summary**
+
+**Description**
+
+-The login page is an integral part of the website, providing users with secure access to their accounts. It is designed with a focus on usability and security, using HTML and CSS for a seamless and visually appealing login experience.
+
+**Key Features**
+
+`User-Friendly Interface:`
+
+-Offers an intuitive and user-friendly login form, making it easy for users to input their credentials.
+
+`Validation:`
+
+-Implements client-side validation to ensure that users provide the required information and adhere to specified input formats.
+
+`Responsive Design:`
+
+-The login page is fully responsive, ensuring that it functions flawlessly on various devices and screen sizes.
+
+`Secure Authentication:`
+
+-Utilizes best practices for handling user authentication, keeping user data secure during the login process.
+
+`Password Recovery:`
+
+-Includes an option for users to reset their passwords in case they forget them, enhancing account recovery options.
+
+`Stylish Design:`
+
+-The login page features an attractive design with a background image and animation, creating a visually appealing login experience.
 
 <hr>
 <h1>Ayush bansal</h1>
