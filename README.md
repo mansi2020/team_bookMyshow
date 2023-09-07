@@ -154,11 +154,9 @@ These media queries help in creating responsive design for different screen size
 
 ![1](https://github.com/mansi2020/team_bookMyshow/assets/125633895/3cfefcda-df63-4d9e-8a88-1b6511635624)
 ![2](https://github.com/mansi2020/team_bookMyshow/assets/125633895/b44a793f-b5fe-4572-b3f4-09081122b795)
-
-
-
-
-
+![3](https://github.com/mansi2020/team_bookMyshow/assets/125633895/54ccfaad-1490-4bd0-9c48-1aa9e69f8b1e)
+![4](https://github.com/mansi2020/team_bookMyshow/assets/125633895/89aefa1a-c835-4fd8-9e9c-ce46748ab98b)
+![5](https://github.com/mansi2020/team_bookMyshow/assets/125633895/50258f13-953c-41e8-b9de-c7698b064e95)
 <h1>Description</h1>
 For ICC MEN I have taken two sections the first section contain the all image of the pages.
 The second section contain the path of the page.The third section contain the despription.
