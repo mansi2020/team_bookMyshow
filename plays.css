@@ -355,8 +355,8 @@ h2{
 
 .bbuttons2{
     display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-auto-rows: 32px;
+    grid-template-columns: 100px 100px ;
+    grid-auto-rows: 32px 32px;
     row-gap: 5px;
     margin-left: 20px;
 }
