@@ -51,7 +51,7 @@ A hover effect is a visual change or animation applied to an element (typically 
 
 <hr>
 <h1>Mayank Gupta</h1>
-<h2>Task assig :- 1 Stream Page</h2>
+<h2>Task:- 1 Stream Page</h2>
 
 # Stream UI
 ![image](https://github.com/mansi2020/team_bookMyshow/assets/128832286/decce2a1-5336-4716-b998-fda95d46d83d)
@@ -77,7 +77,7 @@ A hover effect is a visual change or animation applied to an element (typically 
 **Key Features**
 
 1. `Semantic Tags:`
--Utilizes semantic HTML tags such as `header`, `main`, `footer`, and multiple `section` elements for improved code readability and accessibility.
+-Utilizes semantic HTML tags such as `header`, `main`, `footer`, and multiple `section` (Approx 30 sections) elements for improved code readability and accessibility.
 
 2. `Owl Carousel Library:`
 -Integrates the Owl Carousel library to create dynamic and responsive image carousels for showcasing content.
@@ -97,7 +97,7 @@ A hover effect is a visual change or animation applied to an element (typically 
 7. `CSS Grid Layout:`
 -Utilizes CSS Grid for structuring and arranging content within sections, offering precise control over the layout and alignment.
 
-<h2>Task assig :- 2 Login Page</h2>
+<h2>Task:- 2 Login Page</h2>
 
 # Login UI
 ![image](https://github.com/mansi2020/team_bookMyshow/assets/128832286/c1e935e8-64ab-4010-8ae2-d79b76211f70)
