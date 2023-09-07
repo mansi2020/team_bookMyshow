@@ -541,7 +541,7 @@ main{
         /* border: 2px solid green; */
        display: flex;
        width: 100%;
-       flex-wrap: wrap;
+       /* flex-wrap: wrap; */
        /* justify-content: space-around; */
        gap: 12px;
        padding-top: 15px;
