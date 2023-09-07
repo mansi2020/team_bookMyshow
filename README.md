@@ -1,11 +1,11 @@
 # BookmyShow_stream
 # Hosted Link: https://mansi2020.github.io/team_bookMyshow/index.html
 <h1>Team BookMyShow -Roles and Responsibility</h1>
-1) Mansi Sorathiya -> HomePage + Header Section
-2) Mayank Gupta -> Stream Section
-3) Ayush Bansal -> Events Section + Sports Section
-4) Rupesh Mandal -> Movies Section + Plays Section
-5) Dibya Shakti Panda -> Icc Cricket world cup Section
+1) Mansi Sorathiya -> HomePage + Header Section<br>
+2) Mayank Gupta -> Stream Section<br>
+3) Ayush Bansal -> Events Section + Sports Section<br>
+4) Rupesh Mandal -> Movies Section + Plays Section<br>
+5) Dibya Shakti Panda -> Icc Cricket world cup Section<br>
 6) Aman Sen -> Buzz Section
 
 
