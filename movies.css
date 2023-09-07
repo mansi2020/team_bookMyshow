@@ -1325,11 +1325,12 @@ footer a:hover {
     .dibya-footer-media{
         display: none;
     }
-    .text-container{
-        display: none;
+    .card-container {
+        gap: 20px 26px;
     }
     .card{
         height:100%;
+        justify-content: start;
     }
     .main_containerr{
         width:100%;
