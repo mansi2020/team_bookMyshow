@@ -168,7 +168,7 @@ I also tried to make it responsive as possible.
 In the first section I make it display as flex and change the flex direction to column.
 In side it some img tag and h tag are used.
 The Flag part and State part is made of grid property.
-The are divide in 3-columns and 4-rows. By grid-templetes-rows/columns properties.
+The are divide in 3-columns and 4-rows. By **grid-templetes-rows/columns properties**.
 The footer part is contain of svg tag and many of a tag to complete with some hover property when hover change its color to white.
 At last I have taken some Icon from Aswomefonts  and also given some hover property.
 To make it responsive i use 3-4 break point with apply @media only screen and (-----) properties.
