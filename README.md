@@ -229,12 +229,13 @@ These media queries help in creating responsive design for different screen size
 
 <h1>Description</h1>
 
-1. We have used semantic tags such as header, footer, main, article.<br> 
+1.  We have used semantic tags such as header, footer, main, article.<br> 
 2. *Main*- First of all i created this main container inside body and after that divided it into three parts navbar, section and article.<br>
 3. *Section*- I have divided section part into two parts section 1 and section 2<br>
 4. *Hover*- I have created filter section using hover property to make it as similar as possible and for better representation.<br>
 5. *Grid*- I have applied grid on section 2 div card where all the images are stored ,to give them a proper styling.<br>
 6. *Flexbox*- I have also used flex on various divs to make the UI as similar as possible.<br>
+7. *Anchor Tags*- I have also used anchor tags to give path to various words and buttons. 
 
 **Media Query**<br>
 
