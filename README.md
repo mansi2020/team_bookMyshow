@@ -5,7 +5,7 @@
 2) Mayank Gupta -> Stream Section<br>
 3) Ayush Bansal -> Events Section + Sports Section<br>
 4) Rupesh Mandal -> Movies Section + Plays Section<br>
-5) Dibya Shakti Panda -> Icc Cricket world cup Section<br>
+5) Dibya Shakti Panda -> Icc Cricket world cup Section+ Footer<br>
 6) Aman Sen -> Buzz Section
 
 <hr>
