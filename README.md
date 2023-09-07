@@ -69,6 +69,86 @@ A hover effect is a visual change or animation applied to an element (typically 
 
 
 
+<hr>
+<h1>Ayush bansal</h1>
+<h2>Task assig :- 1 Event page
+              :- 2 Sports page</h2>
+              
+# Event UI
+![image](https://github.com/mansi2020/team_bookMyshow/assets/118842033/f8d2da03-72b4-486c-8ab6-8dc597600925)
+![image](https://github.com/mansi2020/team_bookMyshow/assets/118842033/12e4b9f6-2d26-4448-abba-307e5289944a)
+![image](https://github.com/mansi2020/team_bookMyshow/assets/118842033/f570ecf7-06d1-4872-b86c-e910c07fd4f9)
+![image](https://github.com/mansi2020/team_bookMyshow/assets/118842033/6955baf2-f735-4025-ac92-236e290070da)
+# Sports UI
+![image](https://github.com/mansi2020/team_bookMyshow/assets/118842033/cfeedea7-3e58-4fc4-a781-ef47f4b8a509)
+![image](https://github.com/mansi2020/team_bookMyshow/assets/118842033/0cdf3288-ac6e-456e-a301-a19caee80dcd)
+**Explaining Enent and Sport UI**
+
+**{
+1. **Container Styles**: 
+   - `.container` styles set a maximum width, margin, and flex display for containers. It creates a layout with a maximum width of 1230px and horizontal spacing between elements.
+
+2. **Header Styles**:
+   - `header` styles add a margin at the bottom of the header element.
+
+3. **Aside and Main Styles**:
+   - `aside` styles define the width for an aside element (25% of the parent container).
+   - `main` styles define the width for the main content area (74% of the parent container).
+
+4. **Button Styles**:
+   - `.buttons button` styles define the appearance of buttons. They have specific styles like color, background color, border-radius, and padding.
+   - 5. **Gallery Styles**:
+   - `.gallery` styles format a grid layout for a gallery section with specified column and row gaps.
+
+6. **Box Styles**:
+   - `.box1` styles define the appearance of boxes within the gallery section, including cursor style, image width, and text styles.
+
+7. **Full Styles**:
+   - `.full` and related styles format a full-width content section with specified text and background colors.
+
+8. **Container2 Styles**:
+   - `.cont2` and `.container2` styles provide styling for a specific container element.
+
+9. **Text Styles**:
+   - Styles like `.cont2 h4`, `.cont2 p`, and `.ps1` define font styles, sizes, and colors for text elements.
+
+10. **Filter Styles**:
+    - Styles like `.main_containerr`, `.containerr`, and `.bbutton` create a filterable content section with expandable containers.
+11. **Button Group Styles**:
+    - `.bbuttons`, `.bbuttons2`, and `.bbuttons4` styles format groups of buttons with specific layouts.
+
+12. **Browse Button Styles**:
+    - `.browse` styles format a browse button with specific colors and dimensions.
+   
+ # In this CSS code, there are several media queries that apply different styles based on the screen width:
+
+1. **Mobile and Small Screens (320px to 768px)**:
+   - Elements like `.nav_1`, `.nav_2`, and `footer` are hidden.
+   - A fixed navigation bar with the class `.navbar_event` is introduced at the top of the screen.
+   - Various elements within `.event_nav` and `.event_nav2` are styled differently.
+   - Header margin is adjusted for spacing.
+   - Some elements within `aside` and `main h2` are hidden.
+   - Special styling is applied to buttons and containers for this screen size.
+
+2. **Medium Screens (769px to 1022px)**:
+   - Similar to the mobile/small screen styles but with some adjustments.
+   - The header's margin is reduced.
+   - Elements within `.event_nav2` are adjusted.
+   - A pair of buttons (`left` and `right`) are introduced and styled.
+3. **Large Screens (1022px and above)**:
+   - Elements like `.navbar_event` and `.two_buttons` are hidden.
+   - Styles for larger screens, including adjustments to `.nav_1`, `.nav_2`, and `.container`.
+   - `.gallery` layout is adjusted for larger screens.
+   - Adjustments to `.container2`, `.cont2`, and other elements.
+
+These media queries help in creating responsive design for different screen sizes, ensuring that the layout and styling adapt appropriately to provide the best user experience.
+
+**}**
+
+
+
+
+
 
 <hr>
 <h1>Dibya Shakti Panda - ICC MEN WORLD CUP + Footer</h1>
