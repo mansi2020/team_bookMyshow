@@ -216,7 +216,7 @@ These media queries help in creating responsive design for different screen size
 <h1>Rupesh Mandal - MOVIES + PLAYS</h1>
 <h1>Movies UI</h1>
 
-![Screenshot 2023-09-07 224836](https://github.com/mansi2020/team_bookMyshow/assets/69234169/d91f3f58-5e4d-4a89-a567-041a1b488228)
+![Screenshot 2023-09-07 232417](https://github.com/mansi2020/team_bookMyshow/assets/69234169/5890752b-f4c6-41c5-97d2-a434ff3d922e)
 ![Screenshot 2023-09-07 224854](https://github.com/mansi2020/team_bookMyshow/assets/69234169/d50786d3-38aa-4ec4-af1f-def7df71e99e)
 ![Screenshot 2023-09-07 224916](https://github.com/mansi2020/team_bookMyshow/assets/69234169/4b94cf37-7ed2-4450-8e8d-2f4eae984850)
 ![Screenshot 2023-09-07 224933](https://github.com/mansi2020/team_bookMyshow/assets/69234169/b716a13c-0258-4d29-8c87-273f6f342e4d)
