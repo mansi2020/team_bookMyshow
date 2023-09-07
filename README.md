@@ -49,6 +49,34 @@ A media query in CSS is a conditional statement that allows you to apply specifi
 Hover Effect:<br>
 A hover effect is a visual change or animation applied to an element (typically a link or a button) when a user hovers their cursor over it. This effect provides feedback to the user, indicating that the element is interactive. Common hover effects include color changes, underlines, and animations, enhancing the interactivity and user experience of a website or application.<br><br>
 
+<hr>
+# Mayank Gupta -> Stream Section
+# UI parts
+
+![image](https://github.com/mansi2020/team_bookMyshow/assets/128832286/decce2a1-5336-4716-b998-fda95d46d83d)
+![image](https://github.com/mansi2020/team_bookMyshow/assets/128832286/364135d7-7614-461f-ae21-92eaae5f18ff)
+![image](https://github.com/mansi2020/team_bookMyshow/assets/128832286/1fa4a31a-8528-44a4-a368-9c67df809000)
+![image](https://github.com/mansi2020/team_bookMyshow/assets/128832286/aac54533-5a05-4e44-b485-5ddfde51f420)
+![image](https://github.com/mansi2020/team_bookMyshow/assets/128832286/b177898a-bf58-4ade-9e28-9ac20554ed2e)
+![image](https://github.com/mansi2020/team_bookMyshow/assets/128832286/8a1fbddf-ee91-4c85-a23b-f749a3079eaa)
+![image](https://github.com/mansi2020/team_bookMyshow/assets/128832286/b4553ba6-d584-4174-ae75-61ac31874dab)
+![image](https://github.com/mansi2020/team_bookMyshow/assets/128832286/0a562611-9f5b-4358-ad36-8ef6b13714b7)
+![image](https://github.com/mansi2020/team_bookMyshow/assets/128832286/10dffae0-f1bd-48e7-a384-6949a08d25e6)
+![image](https://github.com/mansi2020/team_bookMyshow/assets/128832286/e96a96fd-9552-46c3-afe0-c3b8c860a007)
+![image](https://github.com/mansi2020/team_bookMyshow/assets/128832286/c8cf3f58-f480-4e28-aee7-a9afed72c151)
+![image](https://github.com/mansi2020/team_bookMyshow/assets/128832286/e30d696b-ccf0-4ef4-ae21-18f2ecdffec9)
+![image](https://github.com/mansi2020/team_bookMyshow/assets/128832286/2fdb7b93-d9e7-4c66-8cda-23f0edea8e1d)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
