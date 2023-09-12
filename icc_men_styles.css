@@ -22,8 +22,9 @@ body{
     width:100vw;
     height:100%;
 }
-.maincontainer{
+.main-container{
     width:100%;
+    overflow-x: hidden;
     /* border:10px solid red; */
 }
 header{
@@ -430,9 +431,7 @@ body {
     width: 940px;
 }
 .dibya-head-mobile{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 0 18px;
     display: none;
 }
 
@@ -1149,7 +1148,7 @@ footer a:hover {
 
 
 .dibya-footer-media {
-        width: 100%;
+        width: 100vw;
         height: 40px;
         display: flex;
         flex-wrap: nowrap;
