@@ -318,19 +318,19 @@ h2{
 
   .main_containerr:hover .containerr {
     cursor: pointer;
-    /* transition: height .5s; */
+    transition: height .5s;
   }
 
   .main_containerr:hover { 
     background-color: #FFFFFF;
     height: 175px;
-    /* transition: height .5s; */
+    transition: height .5s;
   }
   
   .containerr {
     transition: height 1s;
     opacity: 1;
-    /* transition: opacity 0.5s; */
+    transition: opacity 0.5s;
   }
   
   
@@ -348,7 +348,7 @@ h2{
   }
   .main_containerr:hover .bbutton{
     opacity: 1;
-    /* transition: 2.5s; */
+    transition: 2.5s;
   }
   .arr_txt{
     color: rgb(51,51,51);
@@ -377,7 +377,7 @@ h2{
 
 .bbuttons2{
     display: grid;
-    grid-template-columns: 70px 70px 70px;
+    grid-template-columns: 70px 70px ;
     grid-auto-rows: 32px;
     row-gap: 5px;
     margin-left: 20px;
@@ -385,7 +385,7 @@ h2{
 
 .bbuttons4{
     display: grid;
-    grid-template-columns: 100px 100px ;
+    grid-template-columns: 70px 70px ;
     grid-auto-rows: 32px;
     row-gap: 5px;
     margin-left: 20px;
