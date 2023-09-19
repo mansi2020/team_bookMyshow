@@ -60,6 +60,9 @@ header{
     align-items: center;
     height:64px;
 }
+.item{
+    width: 100vw;
+}
 .nav_width{
     width:80vw;
     display:flex;
@@ -207,6 +210,18 @@ sup{
 }
 .resnav{
     display: none;
+}
+.resnav .reschild-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.resnav .reschild-1 i{
+    color: white;
+}
+.resnav .reschild-1 p{
+    color: white;
 }
 .design-1{
     width:180px;
